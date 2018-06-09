@@ -2,6 +2,14 @@
 
 He iniciado el repositorio sincronizado con GitHub
 Ha sido creada la carpeta server donde estará todo lo relacionado al servidor.
+npm init
+npm install express --save
+npm install lodash -- save
+npm install --save react react-dom
+npm install --save-dev babel-cli babel-preset-env babel-preset-react
+npm install --save-dev babel-core babel-loader
+npm install babel webpack webpack-dev-server -g
+
 
 
 
