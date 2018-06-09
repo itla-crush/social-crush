@@ -1,33 +1,20 @@
-// const PORT = process.env || 3825;
-
-module.exports = {
-    // JavaScript entry point
-    // entry: './App.js',
-    // // JavaScrip bundle file
-    // output: {
-    //   path: './',
-    //   filename: 'index.js'
-    // },
-    // Setup server
-    devServer: {
-      inline: true,
-      port: 3825
-    },
-    module: {
-      // JS, JSX and SASS loaders
-      loaders: [
-        {
-          test: /\.js$/,
-          exclude: /node_modules/,
-          loader: 'babel',
-          query: {
-            presets: ['es2015', 'react']
+module: {
+    rules: [
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        include: [
+          path.resolve('.'),
+          path.resolve('../registry'),            // Linked module.
+        ],
+        use: [{
+          loader: 'echo-loader',
+        }, {
+          loader: 'babel-loader',
+          options: {
+            cacheDirectory: './dist/babel-cache/'
           }
-        }
-        // ,{
-        //   test: /\.scss$/,
-        //   loaders: ["style", "css", "sass"]
-        // }
-      ]
-    }
-  };
+        }]
+      }
+    ]
+  }
