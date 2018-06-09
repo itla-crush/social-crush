@@ -1,3 +1,25 @@
+	** Aquí voy a ir documentando algunas de las cosas que hago para no perder el hilo de las cosas. **
+
+He iniciado el repositorio sincronizado con GitHub
+Ha sido creada la carpeta server donde estará todo lo relacionado al servidor.
+
+
+
+	-- Comandos de Git y GitHub --
+______________________________________________________________________________________________________
+git init  	(Iniciar Git En El Proyecto)
+git add <file>  (Pasar Archivos del Working Directory al Staging Area)
+git status  	(Para Saber En Que Estado Estan los Archivos)
+git commit  	(Pasar Archivos del Staging Area al Repository)
+git push  	(Para Subir Al Repositorio Remoto)
+git pull  	(Para Traer Los Cambios Que Han Hecho Otros Desarrolladores)
+git clone  	(Para Clonar Los Archivos Del Servidor A La PC)
+
+git log 	(Para mostrar las actualizaciones que se han realizado)
+
+
+	-- Todo esto debajo es para iniciar Git con el repositorio en GitHub --
+____________________________________________________________________________________________________
 Quick setup — if you’ve done this kind of thing before: https://github.com/itla-crush/my-crush.git
 
 …or create a new repository on the command line
@@ -14,3 +36,4 @@ git push -u origin master
 
 …or import code from another repository
 You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
+
