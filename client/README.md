@@ -1,3 +1,14 @@
+En este repositorio se subirá solo el código de React
+
+-- Para agregar el repositorio a la pc --
+
+echo "# client" >> README.md 
+git init 
+git add README.md 
+git commit -m "first commit" 
+git remote add origin https://github.com/itla-crush/client.git 
+git push -u origin master
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>

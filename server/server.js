@@ -5,7 +5,8 @@ const PORT = process.env.NODE_ENV || 3825;
 
 
 app.all('/', (req, res) => {
-    res.sendFile(path.join(__dirname, '..', '/client/public/index.html'));
+    res.sendFile(path.join(__dirname, '..', '/client/build', 'index.html'));
+    //res.send('<h1>HOla</h1>');
 });
 
 
