@@ -1,11 +1,10 @@
 {
-  "name": "my-crush",
+  "name": "social-crush",
   "version": "1.0.0",
   "description": "��#\u0000 \u0000m\u0000y\u0000-\u0000c\u0000r\u0000u\u0000s\u0000h\u0000\r\u0000 \u0000",
   "main": "server.js",
   "scripts": {
-    "start": "babel-node server/server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "babel-node server/server.js"
   },
   "repository": {
     "type": "git",
