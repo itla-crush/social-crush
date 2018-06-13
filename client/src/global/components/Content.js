@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import './Content.css';
+import '../styles/css/Content.css';
 
 class Content extends Component {
   render() {
     return (
-      <div>
-        
+      <div id="content">
+        <p>Soy el contenido</p>
       </div>
     );
   }
