@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+   /* background-size: 100vw; */
+}
+
+.container #buscar .text-buscar{
+    margin: 15px 10px 0;
+    min-width: 200px;
+}
+
+.container .lg,
+.container #buscar,
+.container .iconos{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#logo{
+    width: 45px;
+    margin-top: 5px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.container .iconos .icono{
+    font-size: 28px;
+}
+
+.container .iconos .icono:hover{
+    color: #f7014c;
+}
+
+@media screen and (max-width: 780px){
+    header .container .iconos .navbar-nav{
+        display: flex;
+        flex-direction: row;
+    }
+}
