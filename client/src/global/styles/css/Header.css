@@ -4,14 +4,14 @@
    /* background-size: 100vw; */
 }
 
-.container #buscar .text-buscar{
+.container #buscar .text-buscar {
     margin: 15px 10px 0;
     min-width: 200px;
 }
 
 .container .lg,
 .container #buscar,
-.container .iconos{
+.container .iconos {
     margin-left: 15px;
     margin-right: 15px;
 }
@@ -20,47 +20,47 @@
     min-width: 540px;
     min-height: 65px;
     background: #fff; 
-    border-bottom: 2px solid #ccc;
+    border-bottom: 1px solid #ccc;
 }
 
-#logo{
+#logo {
     width: 45px;
     margin-top: 5px;
     vertical-align: middle;
     cursor: pointer;
 }
 
-.container .iconos .icono{
+.container .iconos .icono {
     font-size: 28px;
 }
 
-.container .iconos .icono:hover{
+.container .iconos .icono:hover {
     color: #f7014c;
 }
 
 
-@media screen and (max-width: 780px){
-    header .container .iconos .navbar-nav{
+@media screen and (max-width: 780px) {
+    header .container .iconos .navbar-nav {
         display: flex;
         flex-direction: row;
     }
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
     .container {
-      height: 80px;
-     padding-top: 10px;
+        height: 80px;
+        padding-top: 10px;
        /* background-size: 100vw; */
     }
-    .container .buscar .text-buscar{
+    .container .buscar .text-buscar {
         margin: 15px 10px 0;
         min-width: 200px;
         height: 40px;
     }
     .container .lg,
     .container .buscar,
-    .container .iconos{
-    margin-left: 10px;
-    margin-right: 10px;
-}   
+    .container .iconos {
+        margin-left: 10px;
+        margin-right: 10px;
+    }   
 }
