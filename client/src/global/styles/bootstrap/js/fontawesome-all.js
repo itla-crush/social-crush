@@ -3,7 +3,7 @@
  * License - https://fontawesome.com/license (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
 (function () {
-'use strict';
+'use strict'; // eslint-disable-line
 
 var _WINDOW = {};
 try {
@@ -20,7 +20,7 @@ var WINDOW = _WINDOW;
 
 
 
-
+// eslint-disable-next-line
 var IS_IE = ~userAgent.indexOf('MSIE') || ~userAgent.indexOf('Trident/');
 
 var NAMESPACE_IDENTIFIER = '___FONT_AWESOME___';
@@ -34,6 +34,7 @@ var NAMESPACE_IDENTIFIER = '___FONT_AWESOME___';
 var PRODUCTION = function () {
   try {
     return "production" === 'production';
+    // eslint-disable-next-line
   } catch (e) {
     return false;
   }
@@ -43,7 +44,7 @@ var oneToTen = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 var oneToTwenty = oneToTen.concat([11, 12, 13, 14, 15, 16, 17, 18, 19, 20]);
 
 
-
+// eslint-disable-next-line
 var RESERVED_CLASSES = ['xs', 'sm', 'lg', 'fw', 'ul', 'li', 'border', 'pull-left', 'pull-right', 'spin', 'pulse', 'rotate-90', 'rotate-180', 'rotate-270', 'flip-horizontal', 'flip-vertical', 'stack', 'stack-1x', 'stack-2x', 'inverse', 'layers', 'layers-text', 'layers-counter'].concat(oneToTen.map(function (n) {
   return n + 'x';
 })).concat(oneToTwenty.map(function (n) {
@@ -485,7 +486,7 @@ bunker(function () {
 
 }());
 (function () {
-'use strict';
+'use strict'; // eslint-disable-line
 
 var _WINDOW = {};
 try {
@@ -502,7 +503,7 @@ var WINDOW = _WINDOW;
 
 
 
-
+// eslint-disable-next-line
 var IS_IE = ~userAgent.indexOf('MSIE') || ~userAgent.indexOf('Trident/');
 
 var NAMESPACE_IDENTIFIER = '___FONT_AWESOME___';
@@ -516,6 +517,7 @@ var NAMESPACE_IDENTIFIER = '___FONT_AWESOME___';
 var PRODUCTION = function () {
   try {
     return "production" === 'production';
+    // eslint-disable-next-line
   } catch (e) {
     return false;
   }
@@ -525,7 +527,7 @@ var oneToTen = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 var oneToTwenty = oneToTen.concat([11, 12, 13, 14, 15, 16, 17, 18, 19, 20]);
 
 
-
+// eslint-disable-next-line
 var RESERVED_CLASSES = ['xs', 'sm', 'lg', 'fw', 'ul', 'li', 'border', 'pull-left', 'pull-right', 'spin', 'pulse', 'rotate-90', 'rotate-180', 'rotate-270', 'flip-horizontal', 'flip-vertical', 'stack', 'stack-1x', 'stack-2x', 'inverse', 'layers', 'layers-text', 'layers-counter'].concat(oneToTen.map(function (n) {
   return n + 'x';
 })).concat(oneToTwenty.map(function (n) {
@@ -723,7 +725,7 @@ bunker(function () {
 
 }());
 (function () {
-'use strict';
+'use strict'; // eslint-disable-line
 
 var _WINDOW = {};
 try {
@@ -740,7 +742,7 @@ var WINDOW = _WINDOW;
 
 
 
-
+// eslint-disable-next-line
 var IS_IE = ~userAgent.indexOf('MSIE') || ~userAgent.indexOf('Trident/');
 
 var NAMESPACE_IDENTIFIER = '___FONT_AWESOME___';
@@ -754,6 +756,7 @@ var NAMESPACE_IDENTIFIER = '___FONT_AWESOME___';
 var PRODUCTION = function () {
   try {
     return "production" === 'production';
+    // eslint-disable-next-line
   } catch (e) {
     return false;
   }
@@ -763,7 +766,7 @@ var oneToTen = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 var oneToTwenty = oneToTen.concat([11, 12, 13, 14, 15, 16, 17, 18, 19, 20]);
 
 
-
+// eslint-disable-next-line
 var RESERVED_CLASSES = ['xs', 'sm', 'lg', 'fw', 'ul', 'li', 'border', 'pull-left', 'pull-right', 'spin', 'pulse', 'rotate-90', 'rotate-180', 'rotate-270', 'flip-horizontal', 'flip-vertical', 'stack', 'stack-1x', 'stack-2x', 'inverse', 'layers', 'layers-text', 'layers-counter'].concat(oneToTen.map(function (n) {
   return n + 'x';
 })).concat(oneToTwenty.map(function (n) {
@@ -1469,7 +1472,7 @@ bunker(function () {
 
 }());
 (function () {
-'use strict';
+'use strict'; // eslint-disable-line
 
 var noop = function noop() {};
 
@@ -1508,6 +1511,7 @@ var HTML_CLASS_I2SVG_BASE_CLASS = 'fontawesome-i2svg';
 var PRODUCTION = function () {
   try {
     return "production" === 'production';
+    // eslint-disable-next-line
   } catch (e) {
     return false;
   }
@@ -2088,7 +2092,7 @@ var end = function end(name) {
 
 var perf = { begin: begin, end: end };
 
-'use strict';
+'use strict';  // eslint-disable-line
 
 /**
  * Internal helper to bind a function known to have 4 arguments
@@ -2100,7 +2104,7 @@ var bindInternal4 = function bindInternal4 (func, thisContext) {
   };
 };
 
-'use strict';
+'use strict';  // eslint-disable-line 
 
 
 
@@ -2496,6 +2500,7 @@ var parseTransformString = function parseTransformString(transformString) {
         return acc;
       }
 
+      // eslint-disable-next-line
       switch (first) {
         case 'grow':
           acc.size = acc.size + rest;
@@ -2955,6 +2960,7 @@ var Library = function () {
     value: function _pullDefinitions(additions, definition) {
       var normalized = definition.prefix && definition.iconName && definition.icon ? { 0: definition } : definition;
 
+      // eslint-disable-next-line
       Object.keys(normalized).map(function (key) {
         var _normalized$key = normalized[key],
             prefix = _normalized$key.prefix,
@@ -3187,7 +3193,7 @@ var layer = function layer(assembler) {
     var children = [];
 
     assembler(function (args) {
-      Array.isArray(args) ? args.map(function (a) {
+      Array.isArray(args) ? args.map(function (a) { // eslint-disable-line 
         children = children.concat(a.abstract);
       }) : children = children.concat(args.abstract);
     });
