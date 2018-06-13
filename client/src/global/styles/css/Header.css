@@ -16,6 +16,13 @@
     margin-right: 15px;
 }
 
+#nav-header {
+    min-width: 540px;
+    min-height: 65px;
+    background: #fff; 
+    border-bottom: 2px solid #ccc;
+}
+
 #logo{
     width: 45px;
     margin-top: 5px;
@@ -31,9 +38,29 @@
     color: #f7014c;
 }
 
+
 @media screen and (max-width: 780px){
     header .container .iconos .navbar-nav{
         display: flex;
         flex-direction: row;
     }
+}
+
+@media screen and (max-width: 600px){
+    .container {
+      height: 80px;
+     padding-top: 10px;
+       /* background-size: 100vw; */
+    }
+    .container .buscar .text-buscar{
+        margin: 15px 10px 0;
+        min-width: 200px;
+        height: 40px;
+    }
+    .container .lg,
+    .container .buscar,
+    .container .iconos{
+    margin-left: 10px;
+    margin-right: 10px;
+}   
 }

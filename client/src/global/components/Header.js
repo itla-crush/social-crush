@@ -6,7 +6,7 @@ class Header extends Component {
   render() {
     return (
       <header className="header">
-      <nav className="navbar navbar-default">
+      <nav className="navbar navbar-default" id="nav-header">
         <div className="container">
           <div className="lg">
             {/* Puse logo como id y no como clase ya que tiene un solo uso */}

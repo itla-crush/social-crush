@@ -12,9 +12,12 @@ app.use(express.static(path.join(__dirname, '..', 'client', 'build')));
 // End Config
 
 app.all('/', (req, res) => {
-    res.sendFile(path.join(__dirname, '..', 'client', 'build', 'index.html'));
+    res.sendFile(path.join(__dirname, '..', 'client', 'build', 'home.html'));
 });
 
+app.all('/home', (req, res) => {
+    res.sendFile(path.join(__dirname, '..', 'client', 'build', 'home.html'));
+});
 
 
 app.listen(PORT, (error) => {
