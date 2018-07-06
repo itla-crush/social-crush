@@ -1,0 +1,19 @@
+.in-container-right h2 .stronge {
+    font-size: 34px;
+}
+
+.in-container-right .input-r {
+	display: flex;
+	justify-content: space-between;
+}
+
+.in-container-right .input-r .dn { 
+	margin-right: 10px;
+}
+
+@media screen and (max-width: 535px) {
+    .in-container-right .input-r {
+       display: flex;
+       flex-direction: column;
+   } 
+}

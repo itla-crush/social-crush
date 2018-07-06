@@ -1,0 +1,122 @@
+.in-container-right {
+	width: 85%;
+	height: 90%;
+	margin: 0 auto;
+	border-radius: 3px;
+}
+
+.in-container-right h2 {
+	margin: 0 auto;
+    font-family: "Abel";
+	font-weight: 400;
+	color: rgba(247, 1, 76, 0.8);
+    font-size: 26px;
+	text-decoration: none;
+	margin-bottom: 50px;
+}
+
+.in-container-right h2 a {
+	color: rgba(247, 1, 76, 0.8);
+    text-decoration: none;
+    text-decoration-style: unset;
+}
+
+/* -----ESTILOS BOTONOES ----- */
+
+.in-container-right .boton .btn-iniciar-sesion{
+	font-family: "AbeeZee";
+	font-size: 16px;
+	border-radius: 20px;
+	border: none;
+	border: 1px solid transparent;
+	background-color: #5bc0de;
+	border-color: #46b8da;	
+	padding: 8px 0; 
+	color: #fff;
+	width: 50%;
+}
+.in-container-right .boton .btn-iniciar-sesion:focus {
+	color: #fff;
+	background-color: #31b0d5;
+	border-color: #1b6d85;
+}
+.in-container-right .boton .btn-iniciar-sesion:hover {
+	color: #fff;
+	background-color: #31b0d5;
+	border-color: #269abc;
+}
+.in-container-right .boton .btn-iniciar-sesion:active{
+	box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+}
+.in-container-right .boton .btn2{
+	font-family: "AbeeZee";
+	font-size: 16px;
+	border-radius: 20px;
+	border: none;
+	border: 1px solid transparent;
+	background: #2BBBAD;
+	padding: 8px  0px;
+	color: #fff;
+	width: 50%;
+}
+.in-container-right .boton .btn2:hover{
+	color: #fff;
+	background-color: #18ab9d;
+}
+.in-container-right .boton .btn2:active{
+	box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+}
+.in-container-right .boton .btn-registro{
+	font-family: "AbeeZee";
+	font-size: 14px;
+	border-radius: 20px;
+	border: none;
+	border: 1px solid transparent;
+	padding: 8px 0px;
+	background-color: #5bc0de;
+	border-color: #46b8da;	
+	color: #fff;
+	width: 50%;
+}
+.in-container-right .boton .btn-registro:focus{
+	color: #fff;
+	background-color: #31b0d5;
+	border-color: #1b6d85;
+}
+.in-container-right .boton .btn-registro:hover{
+	color: #fff;
+	background-color: #31b0d5;
+	border-color: #269abc;
+}
+.in-container-right .boton .btn-registro:active{
+	box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+}
+.in-container-right .boton .btn2:hover{
+	color: #fff;
+}
+
+/* -----ESTILOS FORMULARIO ----- */
+
+.in-container-right input[type="text"],
+.in-container-right input[type="email"],
+.in-container-right input[type="password"] {
+	margin-bottom: 25px;
+}
+
+.in-container-right .boton {
+	display: flex;
+	justify-content: center; 
+	margin-bottom:8px; 
+}
+
+@media screen and (max-width: 450px) {
+	.in-container-right .boton .btn-iniciar-sesion {
+		min-width: 150px;
+	}
+	.in-container-right .boton .btn2 {
+		min-width: 150px;
+	}
+}

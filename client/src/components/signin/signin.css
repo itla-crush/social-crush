@@ -1,0 +1,22 @@
+.in-container-right h2 .stronge {
+    font-size: 34px;
+}
+
+.in-container-right .olvidar {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+
+.in-container-right .olvidar a {
+	text-decoration: none;
+	margin: 10px;
+}
+
+.in-container-right .input i {
+	margin-right: 8px;
+} 
+
+.in-container-right .input {
+	display: flex;
+}

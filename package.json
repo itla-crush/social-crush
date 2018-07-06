@@ -18,11 +18,13 @@
   "homepage": "https://github.com/itla-crush/my-crush#readme",
   "dependencies": {
     "express": "^4.16.3",
+    "firebase": "^5.2.0",
     "lodash": "^4.17.10",
     "path": "^0.12.7",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
-    "react-scripts": "1.1.4"
+    "react-scripts": "1.1.4",
+    "trim": "0.0.1"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",

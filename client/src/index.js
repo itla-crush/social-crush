@@ -2,15 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 // Components
-import Header from './global/components/Header';
-import Content from './global/components/Content';
-import Footer from './global/components/Footer';
+import Landing from './views/landing/Landing.js';
+// import Home from './views/home/Home.js';
 
-// Styles
-import './index.css';
-import './global/styles/bootstrap/css/bootstrap.min.css';
-import './global/styles/bootstrap/js/fontawesome-all.js';
+// Assets
+import './css/index.css';
 
-ReactDOM.render(<Header />, document.getElementById('header-root'));
-ReactDOM.render(<Content />, document.getElementById('content-root'));
-ReactDOM.render(<Footer />, document.getElementById('footer-root'));
+ReactDOM.render(<Landing />, document.getElementById('root'));
