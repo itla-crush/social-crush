@@ -1,4 +1,4 @@
-{
+﻿{
   "name": "social-crush",
   "version": "1.0.0",
   "description": "��#\u0000 \u0000m\u0000y\u0000-\u0000c\u0000r\u0000u\u0000s\u0000h\u0000\r\u0000 \u0000",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/itla-crush/my-crush.git"
+    "url": "git+https://github.com/itla-crush/social-crush.git"
   },
   "author": "NeftalyLugoTerrero",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/itla-crush/my-crush/issues"
+    "url": "https://github.com/itla-crush/social-crush/issues"
   },
-  "homepage": "https://github.com/itla-crush/my-crush#readme",
+  "homepage": "https://github.com/itla-crush/social-crush#readme",
   "dependencies": {
     "express": "^4.16.3",
     "firebase": "^5.2.0",

@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 // Components
 import Welcome from '../../components/welcome/Welcome';
 // eslint-disable-next-line
-import Singin from '../../components/signin/Signin';
+import Signin from '../../components/signin/Signin';
 // eslint-disable-next-line
 import Signup from '../../components/signup/Signup';
 
@@ -16,6 +16,7 @@ class Landing extends Component {
         this.state = {
             isSigninShowen: true
         }
+        this.addMaterialize = this.addMaterialize.bind(this);
     }
 
     changeView = (event) => {
@@ -28,6 +29,25 @@ class Landing extends Component {
         });
     }
 
+    addMaterialize = () => {
+        var pre = document.createElement('pre');
+        pre.innerHTML = '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">';	
+        document.querySelector("head").insertBefore(pre, document.querySelector("head").childNodes[0]);
+          
+        document.body.style.backgroundImage = `url(img/${this.props.backgroundID || 4}.jpg)`; 
+        document.querySelector("head").innerHTML += '<style>body{ height: 100vh; }</style>'; 
+        // document.querySelector("head").innerHTML += '<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>'; 
+    }
+
+    componentDidMount() {
+        this.addMaterialize();
+    }
+
+    componentWillUnmount() {
+        document.body.style.backgroundImage = "";
+        document.querySelector("head > pre").innerHTML = "";
+    }
+
     render() {
       return (
         <div className="cont">
@@ -38,7 +58,7 @@ class Landing extends Component {
                 {/* Contenedor Derecho */}
                 <div className="container-right"> 
                     {this.state.isSigninShowen ? (
-                        <Singin changeView={this.changeView.bind(this)} />
+                        <Signin changeView={this.changeView.bind(this)} />
                     ) : (
                         <Signup changeView={this.changeView.bind(this)} />
                     )}

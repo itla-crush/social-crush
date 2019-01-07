@@ -12,7 +12,7 @@
 	color: rgba(247, 1, 76, 0.8);
     font-size: 26px;
 	text-decoration: none;
-	margin-bottom: 50px;
+	/* margin-bottom: 50px; */
 }
 
 .in-container-right h2 a {
@@ -22,7 +22,12 @@
 }
 
 /* -----ESTILOS BOTONOES ----- */
-
+.in-container-right .boton a {
+	width: 100%;
+	text-decoration: none;
+	text-decoration-style: none;
+	outline: none;
+}
 .in-container-right .boton .btn-iniciar-sesion{
 	font-family: "AbeeZee";
 	font-size: 16px;

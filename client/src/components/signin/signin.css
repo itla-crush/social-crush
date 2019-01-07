@@ -1,6 +1,9 @@
 .in-container-right h2 .stronge {
     font-size: 34px;
 }
+/* .in-container-right .form-1{
+	margin-top: 30px;
+} */
 
 .in-container-right .olvidar {
 	display: flex;
@@ -11,6 +14,7 @@
 .in-container-right .olvidar a {
 	text-decoration: none;
 	margin: 10px;
+	font-size: 14px;
 }
 
 .in-container-right .input i {
@@ -19,4 +23,8 @@
 
 .in-container-right .input {
 	display: flex;
+}
+.in-container-right .input input[type="email"],
+.in-container-right .input input[type="password"]{
+	height: 33px;
 }

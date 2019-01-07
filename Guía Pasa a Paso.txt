@@ -1,4 +1,4 @@
-	** Aquí voy a ir documentando algunas de las cosas que hago para no perder el hilo de las cosas. **
+﻿	** Aquí voy a ir documentando algunas de las cosas que hago para no perder el hilo de las cosas. **
 
 He iniciado el repositorio sincronizado con GitHub
 Ha sido creada la carpeta server donde estará todo lo relacionado al servidor.
@@ -11,6 +11,8 @@ npm install --save-dev babel-core babel-loader
 npm install babel webpack webpack-dev-server -g
 
 
+
+npm install --save firebase
 
 
 	-- Comandos de Git y GitHub --
